@@ -1,0 +1,44 @@
+Zpa927	Zpa	Plant pathogen collection	Domesticated
+Zpa926	Zpa	Plant pathogen collection	Domesticated
+Zpa925	Zpa	Plant pathogen collection	Domesticated
+Zpa924	Zpa	Plant pathogen collection	Wild
+Zpa918	Zpa	IEAMSS1_1	Wild
+Zpa917	Zpa	IEAMSS1_1	Wild
+Zpa912	Zpa	IEAMSS1_1	Wild
+Zpa911	Zpa	IEAMSS1_1	Wild
+Zpa907	Zpa	IRN_2020_AA_2_3_2_1	Wild
+Zpa906	Zpa	IRN_2020_AA_2_3_2_1	Wild
+Zpa905	Zpa	IRN_2020_AA_2_3_2_1	Wild
+Zpa904	Zpa	IRN_2020_AA_2_3_2_1	Wild
+Zpa902	Zpa	IEAMSS1_2_1	Wild
+Zpa901	Zpa	IEAMSS1_2_1	Wild
+Zpa899	Zpa	IEAMSS1_2_1	Wild
+Zpa898	Zpa	IEAMSS1_2_1	Wild
+Zpa897	Zpa	IEAMSS1_2_1	Wild
+Zpa896	Zpa	IEAMSS1_2_1	Wild
+Zpa894	Zpa	IEAMSS1_2_1	Wild
+Zpa893	Zpa	IEAMSS1_2_1	Wild
+Zpa891	Zpa	IEAMSS1_2_1	Wild
+Zpa890	Zpa	IEAMSS1_2_1	Wild
+Zpa888	Zpa	Plant pathogen collection	Domesticated
+Zpa887	Zpa	Plant pathogen collection	Domesticated
+Zpa886	Zpa	Plant pathogen collection	Wild
+Zpa885	Zpa	Plant pathogen collection	Domesticated
+Zpa884	Zpa	Plant pathogen collection	Domesticated
+Zpa882	Zpa	Plant pathogen collection	Domesticated
+Zpa881	Zpa	Plant pathogen collection	Domesticated
+Zpa804	Zpa	IAKWS1_2	Wild
+Zpa801	Zpa	IEAMSS1_1	Wild
+Zpa799	Zpa	IEAMSS1_1	Wild
+Zpa796	Zpa	IEAMSS1_1	Wild
+Zpa793	Zpa	IEAMPS3_1	Wild
+Zpa792	Zpa	IEAMPS3_1	Wild
+Zpa791	Zpa	IEAMPS3_1	Wild
+Zpa790	Zpa	IEAMPS3_1	Wild
+Zpa789	Zpa	IEAMPS3_1	Wild
+Zpa788	Zpa	IEAMPS3_1	Wild
+Zpa787	Zpa	IEAMPS3_1	Wild
+Zpa786	Zpa	IEAMPS3_1	Wild
+Zpa733	Zpa	IAKWS1_2	Wild
+Zpa732	Zpa	IEAMPS3_1	Wild
+Zpa21	Zpa	Plant pathogen collection	Domesticated
