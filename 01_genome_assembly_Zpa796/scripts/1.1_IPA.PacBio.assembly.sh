@@ -14,8 +14,8 @@
 #SBATCH --partition=standard #Request a specific partition for the resource allocation.
 
 ## Activate conda environment
-#source /data/modules/python/python-anaconda3/etc/profile.d/conda.sh
-#conda activate ipa
+source /data/modules/python/python-anaconda3/etc/profile.d/conda.sh
+conda activate ipa
 
 
 #Project organization

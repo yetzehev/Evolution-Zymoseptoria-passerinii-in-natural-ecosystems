@@ -45,6 +45,5 @@ GENOME=/home/rojas/Zpasserinii/1_PacBio_assembly/1_assemblies_edited/IPAnp/assem
 # source /data/modules/python/python-anaconda3/etc/profile.d/conda.sh
 
 cd ${WORKDIR}
-# conda activate busco_local
-#busco -i  /home/rojas/Zpasserinii/1_PacBio_assembly/1_assemblies_edited/IPAnp/assembly/Z796IPnp.fna -m genome -c 6 -o busco_run6 --offline -f -l /home/rojas/databases/busco/lineages/fungi_odb10 --out_path $OUT 
+conda activate busco_local 
 busco -i  /home/rojas/Zpasserinii/1_PacBio_assembly/1_assemblies_edited/IPAnp/assembly/Z796IPnp.fna -m genome -c 6 -o busco_asc --offline -f -l /home/rojas/databases/busco/lineages/ascomycota_odb10 --out_path $OUT
