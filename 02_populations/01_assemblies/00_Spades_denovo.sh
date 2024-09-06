@@ -36,19 +36,19 @@ n=2 #cores
 
 ## Create working directories
 cd $WORKDIR
-#mkdir rawfastq
-#mkdir quast
-#mkdir meta
-#mkdir out
+mkdir rawfastq
+mkdir quast
+mkdir meta
+mkdir out
 
 
 ## Create a soft link for the fastq files
-#cd rawfastq
-#ln -s $ILLUMINAREADS/*.fastq.gz .
+cd rawfastq
+ln -s $ILLUMINAREADS/*.fastq.gz .
 
 #Make a list for the samples
-#cd $WORKDIR
-#ls $ILLUMINAREADS |  grep fastq | grep -v Zpa | grep -v fastqc | egrep 'R1|R2'|sed s/.bbduk_R1.fastq.gz// |sed s/.bbduk_R2.fastq.gz// | sort -r |uniq > ./meta/${PROJECT}_genomes_Zspp.txt
+cd $WORKDIR
+ls $ILLUMINAREADS |  grep fastq | grep -v Zpa | grep -v fastqc | egrep 'R1|R2'|sed s/.bbduk_R1.fastq.gz// |sed s/.bbduk_R2.fastq.gz// | sort -r |uniq > ./meta/${PROJECT}_genomes_Zspp.txt
 
 ############################################################
 ##	Create a script for calling 
@@ -71,9 +71,9 @@ echo -e '#!/bin/bash' >  ${NJOB[$i]}.spades.sh
 
 echo "cd ${WORKDIR}" >>  ${NJOB[$i]}.spades.sh
 echo "module load python/3.7.1" >>  ${NJOB[$i]}.spades.sh
-#echo "mkdir ${WORKDIR}/out/${NAME[$i]}" >>  ${NJOB[$i]}.spades.sh
+echo "mkdir ${WORKDIR}/out/${NAME[$i]}" >>  ${NJOB[$i]}.spades.sh
 
-#echo "/data/biosoftware/spades/spades/spades.py -t 4 --careful -k 21,33,55,67,99,127 -o ${WORKDIR}/out/${NAME[$i]} --pe1-1 ${WORKDIR}/rawfastq/${NAME[$i]}.bbduk_R1.fastq.gz --pe1-2 ${WORKDIR}/rawfastq/${NAME[$i]}.bbduk_R2.fastq.gz" >>  ${NJOB[$i]}.spades.sh
+echo "/data/biosoftware/spades/spades/spades.py -t 4 --careful -k 21,33,55,67,99,127 -o ${WORKDIR}/out/${NAME[$i]} --pe1-1 ${WORKDIR}/rawfastq/${NAME[$i]}.bbduk_R1.fastq.gz --pe1-2 ${WORKDIR}/rawfastq/${NAME[$i]}.bbduk_R2.fastq.gz" >>  ${NJOB[$i]}.spades.sh
 
 echo "/data/biosoftware/quast/quast-4.6.3/quast.py ${WORKDIR}/out/${NAME[$i]}/scaffolds.fasta -t $n -o ${WORKDIR}/quast/${NAME[$i]}" >>  ${NJOB[$i]}.spades.sh
 
