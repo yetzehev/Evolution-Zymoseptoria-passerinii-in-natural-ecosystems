@@ -1,8 +1,0 @@
-For running REPEAT, the contigs IDs should have spaces of specials characers, an it's recommend to short fasta line, 60 characters per line. 
-
-01_rename_short_contigs.sh :
-	Rename contigs and make fasta lines shorter
-02_REPET_pipeline.sh:
-	REPET pipeline
-03_mask_genome.sh:
-	soft mask of genemo assembly 
