@@ -1,0 +1,33 @@
+---
+title: "02_TEs_Outputs"
+author: "Idalia Rojas"
+date: "2024-02-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## REPET outputs
+
+REPET pipeline to identify, classify and annotate TEs. REPET is executed in multiple step and produces an overwhelm number of outputs files. This script used the TE_classified and filtered output to extract and plot the results for Zymoseptoria passerinii. 
+
+
+```{r libraries}
+library(tidyverse)
+```
+
+## Load data
+
+The REPET pipeline v2.5 was run for the 44 Illumina genomes,and the Class and family order data were extracted from the path  TEdenovo/${ProjectName}_Blaster_GrpRecPil_Map_TEclassif_Filtered/clasifConsensus/${ProjectName}_sim.classif_stats.txt, where ${ProjectName} is the corresponding isolates. 
+The data was transferred to a single table and manually edited
+
+```{r te.families, echo=FALSE}
+
+
+
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
